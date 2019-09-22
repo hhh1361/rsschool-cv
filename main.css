@@ -1,0 +1,163 @@
+body {
+    background: url(./image/bg.jpg);
+    color: whitesmoke;
+    font-family: 'Sniglet', cursive;
+    
+}
+main {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+}
+.photo {
+    margin-top: 100px;
+}
+.photo img {
+    border: 15px solid rgba(245, 222, 179, 0.411);
+}
+.photo img:hover {
+    transform: scale(1.6);
+    transition: all 0.7s;
+}
+header {
+    width: 1024px;  
+    margin: auto;
+}
+a {
+    text-decoration: none;    
+}
+a {
+    color: rgb(255, 245, 154);
+    text-shadow: 2px 2px 2px black;
+}
+a:visited {
+    color: rgb(255, 245, 154);
+    text-shadow: 2px 2px 2px black;
+   }
+a:active {
+    color: rgb(255, 245, 154);
+    text-shadow: 2px 2px 2px black;
+   }
+a:hover {
+    color: rgb(94, 8, 19);
+}
+.header {
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    height: 72px;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 3px;
+    margin: 3px;
+    border: 2px dotted wheat;
+    font-weight: bold;
+    border: 2px solid  rgb(94, 8, 19);
+    background-color: rgba(240, 222, 173, 0.514);
+    color: rgb(94, 8, 19);
+    text-shadow: 1px 1px 2px black;
+    border-radius: 15%;
+}
+.header:hover {
+    cursor: pointer;
+    transition: all 0.2s;
+
+
+
+    background-color: rgba(240, 222, 173, 0.514);
+    border-radius: 15%;
+    text-shadow: 1px 1px 2px black
+}
+  
+section {
+    display: inline-block;
+    width: 580px;
+    position: absolute;
+    left: 382px;
+    border-bottom: 2px solid rgba(240, 222, 173, 0.651);
+    font-size: 1.3em;
+    color: rgb(94, 8, 19);
+}
+section:hover {
+    background-color: rgba(255, 254, 193, 0.521);
+    transition: all 0.6s;
+    
+
+}
+.field1 {
+    width: 150px;
+    height: 49px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(94, 8, 19);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 1)
+}
+.field2 {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    left: 155px;
+    top: 0px;
+}
+#name {
+    top: 0px;
+}
+#name .field2 {
+    font-size: 1.2em;
+}
+#contacts {
+    top: 50px;
+}
+#summary {
+    top: 100px;
+    height: 304px;
+}
+#summary .field1 {
+    line-height: 190px;
+}
+#summary .field2 {
+    line-height: 30px;
+}
+#skills {
+    top: 405px;
+    height: 54px;
+}
+#codeExample {
+    top: 460px;
+    height: 59px;
+}
+#experience {
+    top: 520px;
+    height: 49px;
+}
+#education {
+    top: 570px;
+    height: 89px;
+}
+#education .field1 {
+    line-height: 50px;
+}
+#education .field2 {
+    line-height: 30px;
+}
+#englishLevel {
+    top: 660px;
+    height: 166px;
+}
+section a {
+    text-decoration: none;    
+}
+section a {
+    color: rgb(134, 0, 18);
+}
+section a:visited {
+    color: rgb(134, 0, 18);
+   }
+section a:active {
+    color: rgb(134, 0, 18);
+   }
+section a:hover {
+    color: rgb(134, 0, 18);
+}
